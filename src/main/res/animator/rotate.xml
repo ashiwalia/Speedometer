@@ -1,0 +1,15 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Rotate. -->
+    <objectAnimator
+        android:valueFrom="0"
+        android:valueTo="360"
+        android:transformPivotX="10dp"
+        android:transformPivotY="10dp"
+        android:propertyName="rotation"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:duration="3000"
+        android:repeatCount="0"/>
+
+
+</set>
